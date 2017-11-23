@@ -1,0 +1,15 @@
+<div class="container padded">
+  <h1 class="text-center">New cocktail</h1>
+  <div class="row">
+    <div class="col-md-6 col-md-offset-3">
+      <%= simple_form_for @cocktail do |f| %>
+        <%= f.error_notification %>
+        <div class="form-group">
+          <%= f.input :name, class: "form-control" %>
+        </div>
+        <%= f.submit "Create this cocktail !", class: "btn btn-primary" %>
+        <%= link_to "Back to list", cocktails_path, class: "btn btn-primary" %>
+      <% end %>
+    </div>
+  </div>
+</div>
