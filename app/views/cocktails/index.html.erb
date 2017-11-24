@@ -10,9 +10,9 @@
 <div class="container">
    <h1 class="text-center">Cocktails</h1>
    <div class="row">
-     <div class="col-xs-12 col-sm-4">
           <% @cocktails.each do |cocktail| %>
             <div class="card">
+          <div class="col-sm-4">
               <div class="yolo"><h3><%= link_to cocktail.name, cocktail %></h3>
               <p>C'est le meilleur cocktail... de votre vie !</p>
               </div>
@@ -21,7 +21,7 @@
      </div>
    </div>
  </div>
-
+<!--
  <div class="footer">
   <div class="footer-links">
     <a href="#"><i class="fa fa-github"></i></a>
@@ -33,5 +33,5 @@
   <div class="footer-copyright">
     This footer is made with <i class="fa fa-heart"></i> at Le Wagon
   </div>
-</div>
+</div> -->
 
