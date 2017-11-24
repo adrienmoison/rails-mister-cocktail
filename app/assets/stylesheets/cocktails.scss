@@ -1,22 +1,23 @@
 // Place all the styles related to the Cocktails controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
-.container {
-  // display: flex;
-  // align-items: center;
-  // justify-content: space-between;
-  // justify-content: center;
-  // display: flex;
-  // height: 350px;
-  // align-items: center;
-}
-
-// .card {
-//   // padding: 25px;
-//   border-radius: 10px;
-//   background-image: url("https://picsum.photos/200/300/?random");
-//   // position: relative;
+// .container {
+//   display: flex;
+//   align-items: center;
+//   justify-content: space-between;
+//   justify-content: center;
+//   display: flex;
+//   height: 350px;
+//   align-items: center;
 // }
+
+.card {
+  padding: 25px;
+  margin-bottom: 25px;
+  border-radius: 10px;
+  background-image: url("https://picsum.photos/200/300/?random");
+  position: relative;
+}
 
 // .card {
 //   height: 175px;
@@ -29,9 +30,9 @@
 //   border-radius: 10px;
 // }
 
-// .card:hover {
-//   opacity: 0.7;
-// }
+.card:hover {
+  opacity: 0.7;
+}
 
 body {
   background-color: rgba(245, 245, 245, 245);
@@ -78,8 +79,13 @@ body {
   margin-bottom: 30px;
 }
 
+.row {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
 .footer {
-  background: #F4F4F4;
+  background: #ffffff;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -87,20 +93,22 @@ body {
   padding: 0px 50px;
   color: rgba(0,0,0,0.3);
 }
-.footer-links {
-  display: flex;
-  align-items: center;
-}
-.footer-links a {
-  color: black;
-  opacity: 0.15;
-  text-decoration: none;
-  font-size: 24px;
-  padding: 0px 10px;
-}
-.footer-links a:hover {
-  opacity: 1;
-}
+
+
+// .footer-links {
+//   display: flex;
+//   align-items: center;
+// }
+// .footer-links a {
+//   color: black;
+//   opacity: 0.15;
+//   text-decoration: none;
+//   font-size: 24px;
+//   padding: 0px 10px;
+// }
+// .footer-links a:hover {
+//   opacity: 1;
+// }
 .footer .fa-heart {
   color: #D23333;
 }
